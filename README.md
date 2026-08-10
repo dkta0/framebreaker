@@ -96,30 +96,32 @@ The lesson from GBM's shutdown: whale PvP killed the community. FrameBreaker has
 
 **Target platforms:** Android (primary), iOS, PC (via Godot export)
 
-## Repo Structure
+## Repository Map
+
+FrameBreaker is currently a design-only repository:
 
 ```
 framebreaker/
-├── docs/
-│   ├── DESIGN.md          # Full game design document
-│   ├── SYSTEMS.md         # Individual system specs
-│   ├── ART_DIRECTION.md   # Visual style guide
-│   └── ROADMAP.md         # Milestone plan
-├── client/                # Godot 4 project
-├── server/                # Elixir/Phoenix backend
-├── assets/                # Source art, models, audio
-└── tools/                 # Build scripts, asset pipeline
+├── README.md
+└── docs/
+    ├── DESIGN.md
+    ├── INSPIRATION.md
+    └── ROADMAP.md
 ```
 
-## Status
+- [Game Design Document](docs/DESIGN.md) — the vision, core loop, and proposed systems
+- [Research & Inspiration Notes](docs/INSPIRATION.md) — what FrameBreaker learns from its reference points
+- [Roadmap](docs/ROADMAP.md) — the path from design work toward a prototype
 
-**Pre-production.** Design documentation phase. No playable build yet.
+## Start Here
 
-Contributions welcome — especially:
-- Game designers with mobile action RPG experience
-- Godot 4 generalists
-- 3D artists familiar with mech/robot aesthetics
-- Backend engineers (Elixir/Phoenix preferred)
+New to FrameBreaker? Read the [Game Design Document](docs/DESIGN.md) for the full concept, continue with the [Research & Inspiration Notes](docs/INSPIRATION.md) for the reasoning behind it, then check the [Roadmap](docs/ROADMAP.md) for what comes next.
+
+## Status & Contributing
+
+**Pre-production.** This repository contains design documents only. There is no playable build, engine project, backend, asset library, or build pipeline yet. The target stack and architecture above are plans, not current implementation.
+
+Interested in contributing? Follow the reading path above, then open a GitHub issue with the design question, research, or planning change you want to explore before submitting a pull request.
 
 ## Inspiration
 
